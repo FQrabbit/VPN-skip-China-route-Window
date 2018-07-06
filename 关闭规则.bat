@@ -2,6 +2,8 @@
 echo By FQrabbit
 echo https://github.com/FQrabbit/VPN-skip-China-route
 
+title= 正在删除路由...运行结束会自动关闭窗口
+echo 正在删除路由...运行结束会自动关闭窗口
 
 route delete 10.0.0.0
 route delete 127.0.0.0
