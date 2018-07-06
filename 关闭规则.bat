@@ -2,7 +2,9 @@
 echo By FQrabbit
 echo https://github.com/FQrabbit/VPN-skip-China-route
 
-route delete 0.0.0.0
+for /F "tokens=3" %%* in ('route print ^| findstr "\<0.0.0.0\>"') do set "gw=%%*"
+
+route delete 0.0.0.0 mask 255.0.0.0 %gw% 
 route delete 10.0.0.0
 route delete 127.0.0.0
 route delete 100.64.0.0
