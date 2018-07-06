@@ -7,7 +7,6 @@ echo https://github.com/FQrabbit/VPN-skip-China-route
 
 ipconfig /flushdns
 
-route add 0.0.0.0 mask 255.0.0.0 %gw% metric 5
 route add 10.0.0.0 mask 255.0.0.0 %gw% metric 5
 route add 127.0.0.0 mask 255.0.0.0 %gw% metric 5
 route add 100.64.0.0 mask 255.192.0.0 %gw% metric 5
