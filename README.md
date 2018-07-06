@@ -12,7 +12,7 @@
 ### 下载脚本
   
 ![图片加载失败](https://github.com/FQrabbit/VPN-skip-China-route-Window/raw/master/FQrabbitVPN-skip-China-route-Window%20%E6%99%AE%E9%80%9A%E5%85%A8%E5%B1%80VPN%E5%9B%BD%E5%86%85%E5%A4%96%E5%88%86%E6%B5%81%E5%B0%8F%E8%84%9A%E6%9C%ACFor%20Win%20-%20Google%20Chrome.png)
-点击下载压缩包，里面两个脚本都会下载好
+点击下载压缩包，里面两个脚本都会下载好-下载如果乱码，可到[releases](https://github.com/FQrabbit/VPN-skip-China-route-Window/releases)下载
   
 ### 打开方式
   
