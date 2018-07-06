@@ -2,10 +2,17 @@
 @echo off
 echo By FQrabbit
 echo https://github.com/FQrabbit/VPN-skip-China-route
+title= 正在识别网关
+echo 正在识别网关
     for /F "tokens=3" %%* in ('route print ^| findstr "\<0.0.0.0\>"') do set "gw=%%*"
 
-
+title= 正在清理DNS缓存
+echo 正在清理DNS缓存
 ipconfig /flushdns
+
+title= 正在添加路由，请不要关闭窗口，运行完毕会自动关闭
+echo 正在添加路由，请不要关闭窗口，运行完毕会自动关闭
+
 
 route add 10.0.0.0 mask 255.0.0.0 %gw% metric 1
 route add 127.0.0.0 mask 255.0.0.0 %gw% metric 1
